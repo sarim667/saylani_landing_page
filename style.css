@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+
+}
+
+.main {
+    width: 60%;
+}
+
+.navigation {
+    width: 100%;
+    height: 45px;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+}
+
+.navigation>img {
+    width: 19%;
+}
+
+.navigation>ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    color: #008015;
+    list-style-type: none;
+    /* font-size: 1.2em;   */
+}
+
+.greenline {
+    width: 50%;
+    height: 85px;
+    border-bottom: 8px solid #008015;
+    left: 25%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.content-container {
+    position: relative;
+    top: 90px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    /* align-items: center; */
+}
+
+.content-container>div {
+    width: 25%;
+    height: 130px;
+    padding: 2%;
+
+
+}
+
+.leaficon {
+    height: 20px;
+    width: 30px;
+    padding-left: 30%;
+}
+
+.chaticon {
+    width: 50px;
+    height: 40px;
+    padding-left: 93%;
+    padding-top: 8%;
+
+}
